@@ -1,0 +1,9 @@
+{
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "name": "mydbconnection",
+            "database": "/home/user/projects/myfirstcap/wangynh.db"
+        }
+    ]
+}
