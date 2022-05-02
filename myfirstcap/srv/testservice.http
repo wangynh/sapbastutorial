@@ -1,0 +1,17 @@
+GET http://localhost:4004/sap/opu/odata/sap/API_SALES_ORDER/orderSet?$filter=grossamount ge 200
+
+###post data into database
+POST  http://localhost:4004/sap/opu/odata/sap/API_SALES_ORDER/orderSet
+Content-Type: application/json
+
+    {
+      "orderid": 91058,
+      "customer": "Justin",
+      "shipname": "North/Beijing",
+      "quantity": 28,
+      "unit": "PC",
+      "grossamount": 5148,
+      "currency": "USD"
+    }
+
+##
